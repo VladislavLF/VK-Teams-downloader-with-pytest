@@ -31,3 +31,4 @@ pytest -s -v
 
 # With HTML report generation
 pytest -s --html-report=./report.html
+``
