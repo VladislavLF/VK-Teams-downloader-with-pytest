@@ -1,34 +1,33 @@
-# VK-Teams-downloader-with-pytest
-## Автоматизированное тестирование установки и запуска VK Teams
-Эта программа представляет собой набор автоматизированных тестов для проверки:
-- Скачивания установочного файла VK Teams
-- Корректности установки приложения
-- Успешного запуска приложения после установки
+## Automated testing of VK Teams installation and launch
+This program is a set of automated tests to check:
+- Downloading the VK Teams installation file
+- Correct installation of the application
+- Successful launch of the application after installation
 
-## Технологии
-- Язык программирования: Python
-- Фреймворк для тестирования: pytest
-## Дополнительные библиотеки:
-- pywinauto - для автоматизации работы с GUI
-- psutil - для работы с процессами системы
-- requests - для скачивания установочного файла
-- keyboard - для эмуляции нажатия клавиш
+## Technologies
+- Programming language: Python
+- Testing framework: pytest
+## Additional libraries:
+- pywinauto - for automating GUI work
+- psutil - for working with system processes
+- requests - for downloading the installation file
+- keyboard - for emulating keystrokes
 
-## Предварительные условия
+## Prerequisites
 1. Windows 10/11 (64-bit)
 2. Python 3.8+
-3. Права администратора
-4. Стабильное интернет-соединение
-5. Минимум 500 МБ свободного места на диске
-6. Установленные зависимости: `pip install -r requirements.txt`
+3. Administrator rights
+4. Stable internet connection
+5. At least 500 MB of free disk space
+6. Installed dependencies: `pip install -r requirements.txt`
 
-## Запуск тестов
-```bash
-# Стандартный запуск
+## Running tests
+``bash
+# Standard Run
 pytest -s
 
-# С подробным выводом
+# With verbose output
 pytest -s -v
 
-# С генерацией HTML-отчёта
+# With HTML report generation
 pytest -s --html-report=./report.html
