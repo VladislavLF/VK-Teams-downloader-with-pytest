@@ -21,10 +21,10 @@ This program is a set of automated tests to check:
 5. At least 500 MB of free disk space
 6. Installed dependencies: `pip install -r requirements.txt`
 
-## Running tests
-# Standard Run
+# Running tests
+## Standard Run
 ``pytest -s``
-# With verbose output
+## With verbose output
 ``pytest -s -v``
-# With HTML report generation
+## With HTML report generation
 ``pytest -s --html-report=./report.html``
