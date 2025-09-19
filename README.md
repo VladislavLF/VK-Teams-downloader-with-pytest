@@ -23,14 +23,8 @@ This program is a set of automated tests to check:
 
 ## Running tests
 # Standard Run
-``bash
-pytest -s
-``
+``pytest -s``
 # With verbose output
-``bash
-pytest -s -v
-``
+``pytest -s -v``
 # With HTML report generation
-``bash
-pytest -s --html-report=./report.html
-``
+``pytest -s --html-report=./report.html``
