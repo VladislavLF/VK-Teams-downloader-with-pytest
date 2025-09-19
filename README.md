@@ -22,13 +22,15 @@ This program is a set of automated tests to check:
 6. Installed dependencies: `pip install -r requirements.txt`
 
 ## Running tests
-``bash
 # Standard Run
+``bash
 pytest -s
-
+``
 # With verbose output
+``bash
 pytest -s -v
-
+``
 # With HTML report generation
+``bash
 pytest -s --html-report=./report.html
 ``
